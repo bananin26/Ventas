@@ -7,6 +7,7 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: red;
 }
 
 #menuList {
@@ -26,17 +27,20 @@
 }
 
 .menuItem:hover {
-    background-color: #f5b7b1; /* Rojo suave al pasar el ratón */
+    background-color: #f5b7b1;
+    /* Rojo suave al pasar el ratón */
 }
 
 .menuProduct {
     font-size: 16px;
-    color: #b03a2e; /* Rojo vino oscuro */
+    color: #b03a2e;
+    /* Rojo vino oscuro */
 }
 
 .menuPrice {
     font-size: 16px;
-    color: #b03a2e; /* Rojo vino oscuro */
+    color: #b03a2e;
+    /* Rojo vino oscuro */
 }
 
 /* General styles */
@@ -48,13 +52,15 @@ body {
 }
 
 nav {
-    background-color: #b03a2e; /* Rojo vino oscuro */
+    background-color: #b03a2e;
+    /* Rojo vino oscuro */
     padding: 15px;
     text-align: center;
 }
 
 nav button {
-    background-color: #e74c3c; /* Rojo brillante */
+    background-color: #e74c3c;
+    /* Rojo brillante */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -66,7 +72,8 @@ nav button {
 }
 
 nav button:hover {
-    background-color: #c0392b; /* Rojo más oscuro al pasar el ratón */
+    background-color: #c0392b;
+    /* Rojo más oscuro al pasar el ratón */
 }
 
 .section {
@@ -79,8 +86,10 @@ nav button:hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-    color: #b03a2e; /* Rojo vino oscuro */
+h1,
+h2 {
+    color: #b03a2e;
+    /* Rojo vino oscuro */
     text-align: center;
     margin-bottom: 20px;
 }
@@ -96,17 +105,20 @@ label {
     margin-bottom: 5px;
 }
 
-select, input[type="number"] {
+select,
+input[type="number"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
     width: 100%;
-    box-sizing: border-box; /* Asegura que el padding no afecte al tamaño total */
+    box-sizing: border-box;
+    /* Asegura que el padding no afecte al tamaño total */
 }
 
 button[type="submit"] {
-    background-color: #e74c3c; /* Rojo brillante */
+    background-color: #e74c3c;
+    /* Rojo brillante */
     color: #fff;
     border: none;
     padding: 15px;
@@ -114,34 +126,43 @@ button[type="submit"] {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
-    width: 100%; /* Botón de ancho completo */
+    width: 100%;
+    /* Botón de ancho completo */
 }
 
 button[type="submit"]:hover {
-    background-color: #c0392b; /* Rojo más oscuro al pasar el ratón */
+    background-color: #c0392b;
+    /* Rojo más oscuro al pasar el ratón */
 }
 
 #productCostBox {
-    background-color: #f9ebea; /* Fondo suave para el costo del producto */
-    border: 1px solid #e6b0aa; /* Borde en tono más claro de rojo */
+    background-color: #f9ebea;
+    /* Fondo suave para el costo del producto */
+    border: 1px solid #e6b0aa;
+    /* Borde en tono más claro de rojo */
     padding: 15px;
     border-radius: 5px;
     display: flex;
-    flex-direction: column; /* Coloca los elementos en una columna */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
-    gap: 10px; /* Espacio entre la etiqueta y el monto */
+    flex-direction: column;
+    /* Coloca los elementos en una columna */
+    align-items: flex-start;
+    /* Alinea los elementos a la izquierda */
+    gap: 10px;
+    /* Espacio entre la etiqueta y el monto */
 }
 
 #productCostBox label {
     font-size: 16px;
     font-weight: bold;
-    color: #b03a2e; /* Rojo vino oscuro */
+    color: #b03a2e;
+    /* Rojo vino oscuro */
     margin: 0;
 }
 
 #productCost {
     font-size: 18px;
-    color: #b03a2e; /* Rojo vino oscuro */
+    color: #b03a2e;
+    /* Rojo vino oscuro */
     margin: 0;
 }
 
@@ -155,23 +176,27 @@ table {
     border-collapse: collapse;
 }
 
-table th, table td {
+table th,
+table td {
     border: 1px solid #ddd;
     padding: 12px;
     text-align: left;
 }
 
 table th {
-    background-color: #b03a2e; /* Rojo vino oscuro */
+    background-color: #b03a2e;
+    /* Rojo vino oscuro */
     color: #fff;
 }
 
 table tr:nth-child(even) {
-    background-color: #f9ebea; /* Fila alterna en tono suave */
+    background-color: #f9ebea;
+    /* Fila alterna en tono suave */
 }
 
 table tr:hover {
-    background-color: #f5b7b1; /* Rojo suave al pasar el ratón */
+    background-color: #f5b7b1;
+    /* Rojo suave al pasar el ratón */
 }
 
 #resumenSection {
@@ -184,27 +209,31 @@ table tr:hover {
     margin-top: 20px;
 }
 
-#resumenTable th, #resumenTable td {
+#resumenTable th,
+#resumenTable td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
 }
 
 #resumenTable th {
-    background-color: #b03a2e; /* Rojo vino oscuro */
+    background-color: #b03a2e;
+    /* Rojo vino oscuro */
     color: #fff;
 }
 
 #resumenTable tr:nth-child(even) {
-    background-color: #f9ebea; /* Fila alterna en tono suave */
+    background-color: #f9ebea;
+    /* Fila alterna en tono suave */
 }
 
 #resumenTable tr:hover {
-    background-color: #f5b7b1; /* Rojo suave al pasar el ratón */
+    background-color: #f5b7b1;
+    /* Rojo suave al pasar el ratón */
 }
 
 #resumenTable td {
     font-size: 16px;
-    color: #b03a2e; /* Rojo vino oscuro */
+    color: #b03a2e;
+    /* Rojo vino oscuro */
 }
-
